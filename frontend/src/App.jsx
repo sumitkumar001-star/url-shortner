@@ -94,7 +94,7 @@ function App() {
       <div className="text-center">
         <div className="flex items-center justify-center gap-3 mb-2">
           {/* Points to the logo.png file inside your frontend/public folder */}
-          <img src="/logo.png" alt="ShrinkIt Logo" className="w-10 h-10 sm:w-12 sm:h-12 object-contain self-center" />
+          <img src="/logo.png" alt="ShrinkIt Logo" className="w-20 h-20 sm:w-32 sm:h-32 object-contain self-center" />
           <h1 className="text-5xl font-bold text-white drop-shadow-lg">🔗 URL SHORTENER</h1>
         </div>
         <p className="text-white text-opacity-90 text-lg drop-shadow-md">
