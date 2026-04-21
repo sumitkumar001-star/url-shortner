@@ -135,6 +135,9 @@ function App() {
       <div className="text-center text-white text-opacity-80 text-sm mt-8 drop-shadow-md">
         <p>📌 Built with React & Tailwind CSS</p>
         <p>✨ Powered by Express.js Backend</p>
+        <p className="mt-2">
+          👨‍💻 Developed by <a href="https://github.com/sumitkumar001-star" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">Sumit Kumar</a>
+        </p>
       </div>
     </div>
   );
