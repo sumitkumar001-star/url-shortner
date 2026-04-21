@@ -1,0 +1,41 @@
+/**
+ * GLOBAL STYLES
+ * This file contains global CSS that applies to the entire application
+ * Component-specific styles should be written in className attributes
+ */
+
+/* Import Tailwind CSS framework */
+@import "tailwindcss";
+
+/**
+ * CUSTOM BASE STYLES
+ * Beautiful gradient background and scrollbar styling
+ */
+
+html {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(to bottom right, rgb(79, 70, 229), rgb(168, 85, 247), rgb(126, 34, 206));
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(75, 0, 130, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(196, 181, 253);
+  border-radius: 4px;
+}
