@@ -92,7 +92,11 @@ function App() {
     <div className="min-h-screen flex flex-col items-center justify-center p-6 gap-8">
       {/* Header */}
       <div className="text-center">
-        <h1 className="text-5xl font-bold mb-2 text-white drop-shadow-lg">🔗 ShrinkIt - URL SHORTENER</h1>
+        <div className="flex items-center justify-center gap-4 mb-2">
+          {/* Points to the logo.png file inside your frontend/public folder */}
+          <img src="/logo.png" alt="ShrinkIt Logo" className="w-12 h-12 object-contain" />
+          <h1 className="text-5xl font-bold text-white drop-shadow-lg">🔗 URL SHORTENER</h1>
+        </div>
         <p className="text-white text-opacity-90 text-lg drop-shadow-md">
           Transform long URLs into short, shareable links with QR codes
         </p>
